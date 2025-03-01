@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import { getFrameMetadata } from './utils/frameMetadata';
 
 // Replace with your image URL and domain after deployment
-const IMAGE_URL = 'YOUR_IMAGE_URL_HERE';
-const DOMAIN = 'YOUR_VERCEL_DOMAIN_HERE';
+const IMAGE_URL = 'https://res.cloudinary.com/dsjgj0vma/image/upload/v1740849866/good_morning_rjbsdo.png';
+const DOMAIN = 'daily-gm-frame-mukc.vercel.app';
 
 export async function generateMetadata(): Promise<Metadata> {
   const frameMetadata = getFrameMetadata({
