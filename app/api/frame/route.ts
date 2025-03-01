@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 
 // Replace with your image URL
-const IMAGE_URL = 'YOUR_IMAGE_URL_HERE';
+const IMAGE_URL = 'https://res.cloudinary.com/dsjgj0vma/image/upload/v1740849866/good_morning_rjbsdo.png';
 
 export async function POST(req: NextRequest): Promise<NextResponse> {
   try {
